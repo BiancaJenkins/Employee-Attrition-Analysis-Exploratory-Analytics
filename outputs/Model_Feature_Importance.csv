@@ -1,0 +1,16 @@
+feature,coefficient,odds_ratio,direction,rank
+job_role_Sales Representative,1.6630732753048316,5.275499017199879,Increases risk,1
+job_role_Laboratory Technician,1.0195332605690923,2.771900706635652,Increases risk,2
+job_role_Research Director,-0.9714207264160263,0.37854484721882764,Decreases risk,3
+job_role_Human Resources,0.8271935872579864,2.2868917639223687,Increases risk,4
+job_role_Sales Executive,0.7101942015571644,2.034386301274144,Increases risk,5
+job_role_Research Scientist,0.5011911986306343,1.6506863954146498,Increases risk,6
+job_role_Manager,-0.32352093145738714,0.7235968118280356,Decreases risk,7
+engagement_score,-0.30029112958256765,0.7406025779738812,Decreases risk,8
+growth_opportunity_score,-0.2980374412623593,0.7422735475688536,Decreases risk,9
+tenure_months,-0.2918696455381273,0.7468658869289353,Decreases risk,10
+job_role_Manufacturing Director,-0.28887080935118775,0.7491089770263134,Decreases risk,11
+manager_support_score,-0.12062603286733788,0.8863653691364618,Decreases risk,12
+training_hours,-0.11161451333866647,0.8943889660722751,Decreases risk,13
+training_count,-0.11161451333866647,0.8943889660722751,Decreases risk,13
+performance_rating,-0.003258787992859441,0.9967465160935364,Decreases risk,14
