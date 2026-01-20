@@ -1,4 +1,4 @@
-# Employee-Attrition-Prediction-Exploratory-Predictive-Analytics
+# Employee-Attrition-Analysis-Exploratory-Analytics
 
 Overview
 
