@@ -2,7 +2,7 @@
 
 Overview
 
-This project explores the drivers of employee attrition and builds an interpretable predictive model to estimate attrition risk at an employee review point in time. The focus is on data modeling, exploratory analysis, and explainable machine learning, rather than predictive complexity.
+This project explores the drivers of employee attrition using structured data modeling and exploratory analysis. The focus is on identifying employee experience factors associated with attrition and translating those insights into clear, stakeholder-ready outputs.
 
 Business Objective
 
@@ -11,10 +11,10 @@ The objective of this project is to:
 
 * Identify key drivers of attrition
 
-* Estimate attrition probability using an interpretable model
+* Quantify relative attrition risk indicators using an interpretable analytical approachition 
 
-* Translate model outputs into actionable insights for stakeholders
-
+* Translate analytical findings into actionable insights for business stakeholders
+  
 Data Summary
 
 * Snapshot HR dataset (one row per employee)
@@ -37,7 +37,7 @@ Data Modeling & ETL
 
   * Training summaries
 
-* Built a final modeling dataset with a clearly defined attrition target
+* Built a final analytical dataset with a clearly defined attrition outcome
 
 * Validated one-row-per-employee integrity and class balance
 
@@ -53,7 +53,7 @@ Exploratory analysis examined relationships between employee experience factors 
 
 * Training volume and performance rating showed minimal relationship to attrition outcomes
 
-Predictive Modeling
+Analytical Modeling
 
 * Built an interpretable logistic regression model
 
@@ -65,22 +65,22 @@ Predictive Modeling
 
 Model Outputs
 
-* Employee-level attrition probability
+* Employee-level attrition risk indicators
 
 * Risk band classification (Low / Medium / High)
 
 * Feature importance using logistic regression coefficients and odds ratios
 
-Model outputs were exported and used to build a Power BI decision-support dashboard.
+Analytical outputs were exported and used to build a Power BI decision-support dashboard.
 
 Visualization & Reporting
 
 Power BI was used to operationalize model outputs for non-technical stakeholders:
 
-* Distribution of predicted attrition risk
+* Distribution of attrition risk indicators
 
 * Average predicted risk by job role
 
-* Top drivers influencing attrition risk
+* Key factors most strongly associated with attrition
 
-Note: Modeling and evaluation were performed in Python. Power BI was used exclusively for reporting.
+Note: Python was used for data preparation and analytical modeling. Power BI was used exclusively for reporting.
